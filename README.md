@@ -1,20 +1,21 @@
 <div align="center">
 
-# Hi, I'm Mohamed Ait Abbou 👋
+# Mohamed Ait Abbou
 
-### Computer Engineering Student (IRISI) · Full-Stack Developer · DevOps/Cloud · AI/ML
+### Computer Engineering Student · Software Engineering · DevOps & AI/ML
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00F7FF&center=true&vCenter=true&width=750&lines=Building+real-world+software+%F0%9F%9A%80;Full-Stack+%7C+DevOps+%7C+AI%2FML;From+idea+to+deployment+%F0%9F%90%B3;Always+learning.+Always+building." alt="Typing SVG" />
+Computer Engineering student at **FST Marrakech — Cadi Ayyad University (IRISI)**
+Building software systems, learning how they are deployed and operated, and exploring AI/ML.
 
 <p>
   <a href="mailto:mohamedmohamedait2005@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://github.com/mohamedait-abbou">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github&logoColor=white"/>
   </a>
   <a href="https://bsky.app/profile/mohamedait-abbou">
-    <img src="https://img.shields.io/badge/Bluesky-Profile-0285FF?style=for-the-badge&logo=bluesky&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Bluesky-Profile-0285FF?style=flat-square&logo=bluesky&logoColor=white"/>
   </a>
 </p>
 
@@ -22,134 +23,173 @@
 
 ---
 
-## 👨‍💻 About Me
+## About
 
-I'm a first-year **Computer Engineering student** in the **IRISI** program (Réseaux Informatiques et Systèmes d'Information) at **FST Marrakech, Cadi Ayyad University**, with a growing focus on **cybersecurity** and a career direction toward **DevOps/Cloud and AI engineering**, ideally in a remote-friendly role.
+I am a **Computer Engineering student in the IRISI program** at FST Marrakech, with a strong interest in software engineering and modern infrastructure.
 
-I like owning a project end-to-end: architecture and database design, backend and frontend implementation, testing, containerization, and automated deployment. Most recently I did this as an intern, building a production-style CRM from scratch during a one-month internship at a Marrakech web agency.
+My current focus is on building solid foundations in:
 
-```text
-Computer Engineering (IRISI)
-       │
-       ├── Backend & APIs
-       ├── Frontend
-       ├── Databases
-       ├── Networking & Security
-       ├── DevOps & CI/CD
-       ├── Cloud
-       └── AI / Machine Learning
-```
+* Backend and web development
+* Software architecture and databases
+* Linux and networking
+* Cloud and DevOps
+* Machine Learning and AI
 
-### What I care about
+I enjoy understanding a system from the application layer to its infrastructure: how it is designed, built, tested, deployed, and maintained.
 
-* 🏗️ Writing maintainable, well-architected software
-* 🔌 Designing clean APIs and backend systems
-* 🗄️ Structuring relational databases properly
-* 🐳 Containerizing applications with Docker
-* 🔄 Automating testing and deployment with CI/CD
-* 🔐 Building with security and reliability in mind (networking + web security)
-* ☁️ Understanding how applications actually run in the cloud
+My long-term goal is to become a **well-rounded software engineer with strong DevOps/Cloud and AI capabilities**.
 
 ---
 
-## 💼 Experience
+## Experience
 
-**SEOCOM (Marrakech web agency)** — Development Intern, July 2026
-One-month internship where I built the *Optical CRM* below as the main deliverable, working under a professional supervisor and an academic supervisor for my end-of-year project (PFA).
+### SEOCOM — Development Intern
+
+**Marrakech, Morocco · 2026**
+
+Worked on the development of an optical store management platform during my internship.
+
+My work involved:
+
+* Backend and frontend development
+* Database design and implementation
+* Authentication and role-based access control
+* Inventory and order management
+* PDF document generation
+* Notifications and appointment management
+* Docker-based development environment
+* CI/CD automation with GitHub Actions
+* Application documentation and UML modeling
+
+**Main project:** Optical CRM
 
 ---
 
-# 🚀 Featured Projects
+# Featured Projects
 
-## 🏪 Optical CRM — Full-Stack Business Management Platform
+## Optical CRM
 
-A production-style CRM built for optical stores as my end-of-year project (PFA) and my main project during my SEOCOM internship.
+**Business Management Platform for Optical Stores**
 
-**Stack:** `Laravel 13` `PHP 8.5` `MySQL` `Docker` `GitHub Actions (self-hosted runner)`
+A full-stack management system developed during my internship at SEOCOM and as part of my academic project.
 
-### What it does
+### Technology
 
-* 👥 Customer & prescription management
-* 📦 Product & inventory management
-* 🛒 Orders with partial payments
-* 🧾 PDF invoice generation (DomPDF)
-* 📅 Appointments & reservations
-* 🚚 Supplier & purchase management
-* 🔔 Real-time notifications
-* 📊 KPI dashboard & reporting
-* 🔐 Role-based access control (Spatie)
+`Laravel` `PHP` `MySQL` `Docker` `GitHub Actions` `Blade` `Tailwind CSS`
+
+### Main Features
+
+* Customer and prescription management
+* Product and inventory management
+* Orders and partial payments
+* PDF invoice generation
+* Appointment management
+* Supplier and purchase management
+* Notifications
+* KPI dashboard and reporting
+* Role-based access control
 
 ### Engineering
 
 ```text
-Laravel Application
-        │
-        ├── Auth & RBAC (Spatie)
-        ├── Business Logic
-        ├── RESTful Endpoints
-        ├── MySQL Database
-        ├── DomPDF / Notification Services
-        └── Automated Tests
-                │
-                ↓
-     Docker (multi-stage builds)
-                │
-                ↓
-  GitHub Actions CI/CD (self-hosted runner)
-                │
-                ↓
-             Deployment
+                    Optical CRM
+                         │
+          ┌──────────────┼──────────────┐
+          │              │              │
+       Frontend       Backend        Database
+          │              │              │
+       Blade        Laravel/PHP       MySQL
+          │              │              │
+          └──────────────┼──────────────┘
+                         │
+                       Docker
+                         │
+                  GitHub Actions
+                         │
+                       Deploy
 ```
 
-For the academic defense, I also produced a full UML set (use case, class, sequence, activity diagrams), a LaTeX report, and a 65-question jury prep bank.
-
-> Built as a real business-oriented application rather than a tutorial project.
+The project was documented using UML diagrams, technical documentation, a LaTeX report, and a structured testing process.
 
 ---
 
-## 🇲🇦 DarPrice — Morocco House Price Predictor
+## DarPrice
 
-A machine learning project predicting property prices across Morocco.
+### Morocco Real Estate Price Prediction
 
-### ML Pipeline
+A machine learning project for predicting property prices in Morocco.
+
+### Pipeline
 
 ```text
-Raw Data
-   ↓
+Data Collection
+      ↓
 Data Cleaning
-   ↓
-Exploratory Data Analysis
-   ↓
+      ↓
+Exploratory Analysis
+      ↓
 Feature Engineering
-   ↓
+      ↓
 Preprocessing
-   ↓
+      ↓
 Model Training
-   ↓
-Model Evaluation
+      ↓
+Evaluation
+      ↓
+Prediction API
 ```
 
 **Models:** Ridge Regression · Random Forest · HistGradientBoosting
+
 **Evaluation:** MAE · RMSE · R²
-**Stack:** `Python` `Pandas` `NumPy` `Scikit-learn` `Matplotlib`
+
+**Stack:** `Python` `Pandas` `NumPy` `Scikit-learn` `Matplotlib` `FastAPI`
 
 ---
 
-## 🎓 Other Coursework Projects
+## UniReserve
 
-* **Mini Social Platform** — Laravel app with real-time chat and ephemeral stories using WebSockets/Pusher; debugged broadcasting auth and routing middleware issues as part of a team.
-* **UniReserve** — university resource reservation system built with a team, documented with a full V-model methodology, business rules, and test plan.
-* Networking labs covering TCP/UDP analysis (Wireshark), DHCP/ICMP, VLANs, OSPF, subnetting/VLSM, and Cisco Layer 2 security.
+### University Resource Reservation System
+
+A team project for managing university resource reservations.
+
+The project included:
+
+* Requirements analysis
+* Business rules
+* Database design
+* Application development
+* V-model methodology
+* Test planning and validation
+* Technical documentation
 
 ---
 
-# 🧠 Technical Skills
+## Mini Social Platform
 
-## Languages
+A web application developed as a team project with features including:
+
+* User authentication
+* Real-time messaging
+* Ephemeral stories
+* Database management
+* WebSocket communication
+
+The project also involved debugging authentication, broadcasting, and routing issues.
+
+---
+
+# Technical Skills
+
+## Programming
 
 <p>
 <img src="https://skillicons.dev/icons?i=python,php,java,javascript,typescript,cpp,html,css"/>
 </p>
+
+`Python` · `PHP` · `Java` · `JavaScript` · `TypeScript` · `C++`
+
+---
 
 ## Backend & Web
 
@@ -157,7 +197,9 @@ Model Evaluation
 <img src="https://skillicons.dev/icons?i=laravel,nodejs,react,tailwind,bootstrap"/>
 </p>
 
-`REST APIs` · `Authentication & RBAC` · `Backend Architecture`
+`REST APIs` · `Authentication` · `RBAC` · `Backend Architecture`
+
+---
 
 ## Databases
 
@@ -165,55 +207,112 @@ Model Evaluation
 <img src="https://skillicons.dev/icons?i=mysql,postgresql,sqlite"/>
 </p>
 
-`Relational Database Design` · `SQL` · `Data Modeling`
+`SQL` · `Relational Database Design` · `Data Modeling`
 
-## AI / Machine Learning
+---
+
+## DevOps & Cloud — Currently Learning
+
+<p>
+<img src="https://skillicons.dev/icons?i=docker,githubactions,git,github,linux,aws,azure,nginx,terraform"/>
+</p>
+
+Currently developing practical knowledge in:
+
+`Linux` · `Docker` · `CI/CD` · `AWS` · `Azure` · `Terraform` · `Infrastructure as Code`
+
+---
+
+## AI & Machine Learning — Currently Learning
 
 <p>
 <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv"/>
 </p>
 
-`Machine Learning` · `Data Analysis` · currently building a structured ML learning path (RAG, LangChain, vector DBs, FastAPI)
+Currently studying:
 
-## DevOps & Cloud
-
-<p>
-<img src="https://skillicons.dev/icons?i=docker,githubactions,git,github,linux,aws,azure,nginx"/>
-</p>
-
-`Docker` · `CI/CD (GitHub Actions, self-hosted runners)` · `Linux (daily driver: Ubuntu)` · `AWS CLI` · `Terraform`
-Currently studying toward **AZ-104**, **CKA**, and **Terraform Associate**.
-
-## Networking & Security
-
-`TCP/IP` · `DNS` · `HTTP/HTTPS` · `Routing & Switching` · `Cisco IOS` · `VLANs/OSPF` · `Nmap` · `Wireshark`
+`Machine Learning` · `Data Analysis` · `Computer Vision` · `Generative AI` · `RAG` · `FastAPI`
 
 ---
 
-# ⚙️ Development Workflow
+## Networking
+
+`TCP/IP` · `DNS` · `HTTP/HTTPS` · `DHCP` · `VLANs` · `OSPF` · `Subnetting/VLSM` · `Cisco IOS`
+
+Tools:
+
+`Wireshark` · `Nmap`
+
+---
+
+# Engineering Approach
+
+I try to follow a complete engineering workflow:
 
 ```text
-Plan → Design → Build → Test → Containerize → Automate → Deploy → Monitor → Improve
+Understand
+    ↓
+Design
+    ↓
+Build
+    ↓
+Test
+    ↓
+Containerize
+    ↓
+Automate
+    ↓
+Deploy
+    ↓
+Monitor
+    ↓
+Improve
 ```
 
-My goal is to understand **why a system works**, not just how to make it work.
+My goal is not only to make an application work, but to understand **why it works, how it fails, and how it can be improved**.
 
 ---
 
-# 🎯 Currently Exploring
+# Current Learning Direction
 
-### ☁️ Cloud & DevOps
-Cloud architecture · Docker · CI/CD · Infrastructure as Code (Terraform) · AZ-104 / CKA prep
+```text
+                 COMPUTER ENGINEERING
+                         │
+             ┌───────────┼───────────┐
+             │           │           │
+             ▼           ▼           ▼
+         SOFTWARE      DEVOPS       AI / ML
+        ENGINEERING   & CLOUD
+             │           │           │
+          Backend      Linux       ML
+          APIs         Docker      GenAI
+          Databases    CI/CD       RAG
+          Architecture Cloud       Computer Vision
+             │           │           │
+             └───────────┼───────────┘
+                         ▼
+                MODERN SOFTWARE SYSTEMS
+```
 
-### 🤖 AI
-Machine learning fundamentals · a GenAI stack (RAG, LangChain, vector databases, FastAPI)
-
-### 🏗️ Software Engineering
-System architecture · API design · testing · web security · scalable backend systems
+I am currently strengthening my software engineering fundamentals while progressively developing skills in **DevOps/Cloud and AI/ML**.
 
 ---
 
-# 📊 GitHub Analytics
+# Academic & Technical Interests
+
+* Software Engineering
+* Backend Development
+* Distributed and Cloud Systems
+* DevOps and Infrastructure
+* Computer Networks
+* Machine Learning
+* Artificial Intelligence
+* System Architecture
+* Application Security
+
+---
+
+# GitHub Activity
 
 <div align="center">
 
@@ -233,7 +332,7 @@ System architecture · API design · testing · web security · scalable backend
 
 ---
 
-# 📈 Contribution Activity
+# Contribution Activity
 
 <div align="center">
 
@@ -243,30 +342,7 @@ System architecture · API design · testing · web security · scalable backend
 
 ---
 
-# 🧭 My Current Direction
-
-```text
-                    COMPUTER ENGINEERING (IRISI)
-                                  │
-             ┌────────────────────┼────────────────────┐
-             │                    │                    │
-             ▼                    ▼                    ▼
-          BACKEND               DEVOPS               AI/ML
-             │                    │                    │
-        APIs & DBs             Docker               ML basics
-        Laravel               CI/CD                 GenAI stack
-        Architecture          Cloud (AWS/Azure)      (RAG/LangChain)
-             │                    │                    │
-             └────────────────────┼────────────────────┘
-                                  ▼
-                         PRODUCTION SYSTEMS
-```
-
-Looking for opportunities — internships or remote-friendly roles — at the intersection of **Backend + DevOps/Cloud + AI**.
-
----
-
-# 🤝 Let's Connect
+# Connect
 
 <div align="center">
 
@@ -288,8 +364,6 @@ Looking for opportunities — internships or remote-friendly roles — at the in
 
 <div align="center">
 
-### 💡 Build → Learn → Improve → Repeat
-
-<img src="https://komarev.com/ghpvc/?username=mohamedait-abbou&style=for-the-badge&color=00F7FF&label=PROFILE+VIEWS"/>
+**Build · Learn · Improve**
 
 </div>
