@@ -196,6 +196,16 @@ An end-to-end computer-vision project: dataset validation, YOLO training, OCR, a
 
 <br/>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green.svg">
+  <img alt="3D contribution graph" src="profile-3d-contrib/profile-night-rainbow.svg" width="98%">
+</picture>
+
+<p align="center"><sub>3D contribution skyline · generated daily by GitHub Actions</sub></p>
+
+<br/>
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohamedait-abbou&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="98%" />
 
 </div>
