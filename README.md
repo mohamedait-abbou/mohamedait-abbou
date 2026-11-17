@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=14B8A6&center=true&vCenter=true&width=900&lines=Computer+Engineering+Student+%40+FST+Marrakech;Software+Engineering+%7C+DevOps+%7C+AI%2FML;Building+complete+systems+from+idea+to+deployment;Currently+building+SmartPark+Maroc" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=1200&color=14B8A6&center=true&vCenter=true&width=900&lines=Computer+Engineering+Student+%40+FST+Marrakech;Software+Engineering+%7C+DevOps+%7C+AI%2FML;Building+complete+systems+from+idea+to+deployment" alt="Typing SVG" />
 
 <br/>
 
@@ -18,15 +18,24 @@
 
 </div>
 
-## About
+## At a glance
 
-I am a **Computer Engineering student in the IRISI program** at **FST Marrakech — Cadi Ayyad University**. I like building a system end to end: the application, the database, the container, the pipeline, and the monitoring around it.
-
-My current direction is **software engineering**, with growing strengths in **DevOps/Cloud** and **AI/ML**. I learn by shipping real projects, documenting decisions, and understanding why a system works — not only that it works.
-
-- **Currently:** building SmartPark Maroc, a computer-vision pipeline for Moroccan licence plates.
-- **Learning:** Linux, Docker, CI/CD, cloud infrastructure, computer vision, and RAG.
-- **Open to:** software engineering, DevOps, and AI/ML internships.
+<table>
+<tr>
+<td width="62%" valign="top">
+<h3>Who I am</h3>
+<p>I am a <strong>Computer Engineering student in the IRISI program</strong> at <strong>FST Marrakech — Cadi Ayyad University</strong>. I like building a system end to end: the application, the database, the container, the pipeline, and the monitoring around it.</p>
+<p>My current direction is <strong>software engineering</strong>, with growing strengths in <strong>DevOps/Cloud</strong> and <strong>AI/ML</strong>. I learn by shipping real projects, documenting decisions, and understanding why a system works — not only that it works.</p>
+</td>
+<td width="38%" valign="top">
+<h3>Right now</h3>
+<p><strong>Building</strong><br/>SmartPark Maroc — licence-plate detection and OCR</p>
+<p><strong>Learning</strong><br/>Docker · CI/CD · cloud · computer vision</p>
+<p><strong>Open to</strong><br/>Software · DevOps · AI/ML internships</p>
+<p><strong>Based in</strong><br/>Marrakech, Morocco</p>
+</td>
+</tr>
+</table>
 
 ## Currently building
 
@@ -44,7 +53,7 @@ An end-to-end computer-vision project: dataset validation, YOLO training, OCR, a
 
 [Explore SmartPark Maroc →](https://github.com/mohamedait-abbou/SmartPark-computer-vision-project)
 
-## Featured projects
+## Selected work
 
 <table>
 <tr>
@@ -52,13 +61,13 @@ An end-to-end computer-vision project: dataset validation, YOLO training, OCR, a
 <h3><a href="https://github.com/mohamedait-abbou/SmartPark-computer-vision-project">SmartPark Maroc</a></h3>
 <p>End-to-end computer vision for Moroccan licence plates: detection, OCR, and a Streamlit interface.</p>
 <p><code>Python</code> <code>PyTorch</code> <code>YOLO11</code> <code>OpenCV</code> <code>Streamlit</code></p>
-<p><strong>Status:</strong> dataset ready · training next</p>
+<p><strong>Concrete detail:</strong> 1,596 labelled pairs prepared; detector training is next.</p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/mohamedait-abbou/DarPrice-Moroccan-House-Price-Prediction">DarPrice</a></h3>
 <p>Machine-learning pipeline for Moroccan real-estate price prediction.</p>
 <p><code>Python</code> <code>Pandas</code> <code>scikit-learn</code> <code>FastAPI</code></p>
-<p><strong>Models:</strong> Ridge · Random Forest · HistGradientBoosting</p>
+<p><strong>Models:</strong> Ridge · Random Forest · HistGradientBoosting, evaluated with MAE, RMSE, and R².</p>
 </td>
 </tr>
 <tr>
@@ -66,18 +75,46 @@ An end-to-end computer-vision project: dataset validation, YOLO training, OCR, a
 <h3><a href="https://github.com/mohamedait-abbou/optical-management-system">Optical CRM</a></h3>
 <p>Full-stack management platform for optical stores, built during my SEOCOM internship.</p>
 <p><code>Laravel</code> <code>PHP</code> <code>MySQL</code> <code>Docker</code> <code>GitHub Actions</code></p>
-<p><strong>Scope:</strong> inventory · orders · invoices · appointments · RBAC</p>
+<p><strong>Scope:</strong> inventory · orders · PDF invoices · appointments · RBAC · KPI dashboard.</p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/mohamedait-abbou/dns-monitor">DNS Traffic Monitor</a></h3>
 <p>Python DNS packet analyzer for security monitoring, suspicious-domain detection, and rate-limiting alerts.</p>
 <p><code>Python</code> <code>Scapy</code> <code>Networking</code> <code>Security</code></p>
-<p><strong>Features:</strong> live capture · pcap analysis · reports</p>
+<p><strong>Features:</strong> live capture · pcap analysis · summary reports.</p>
 </td>
 </tr>
 </table>
 
-## All public projects
+## Project gallery
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/mohamedait-abbou/optical-management-system"><img src="assets/projects/optical-dashboard.webp" alt="Optical CRM dashboard" width="100%" /></a>
+<p><strong>Optical CRM</strong> — inventory, orders, invoices, and KPIs.</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/mohamedait-abbou/Power-Rangers-ReelTimeChat"><img src="assets/projects/reeltime-chat.webp" alt="ReelTimeChat real-time chat interface" width="100%" /></a>
+<p><strong>ReelTimeChat</strong> — real-time chat with rooms and notifications.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/mohamedait-abbou/mini-projet-jeu-velo"><img src="assets/projects/bicycle-game.webp" alt="Bicycle Racing Game screenshot" width="100%" /></a>
+<p><strong>Bicycle Racing Game</strong> — C++ and SDL2 game with collisions and scoring.</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/mohamedait-abbou/DarPrice-Moroccan-House-Price-Prediction"><img src="assets/projects/darprice-eval.webp" alt="DarPrice predicted versus actual plot" width="100%" /></a>
+<p><strong>DarPrice</strong> — model evaluation: predicted versus actual prices.</p>
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>All 8 public projects</strong> — click to expand</summary>
+
+<br/>
 
 | Project | What it does | Stack |
 |---|---|---|
@@ -92,7 +129,9 @@ An end-to-end computer-vision project: dataset validation, YOLO training, OCR, a
 
 **Academic team work:** UniReserve — university resource reservation system covering requirements, database design, V-Model process, testing, and technical documentation.
 
-## Tech stack
+</details>
+
+## Stack
 
 **Languages**
 
@@ -126,23 +165,25 @@ An end-to-end computer-vision project: dataset validation, YOLO training, OCR, a
 
 **Also working with:** REST APIs · authentication · RBAC · SQL · data modeling · TCP/IP · DNS · HTTP/HTTPS · VLANs · OSPF · Wireshark · Nmap · FastAPI · RAG.
 
-## Experience
+## Experience & education
 
-### SEOCOM — Development Intern
-**Marrakech, Morocco · 2026**
+<table>
+<tr>
+<td width="60%" valign="top">
+<h3>SEOCOM — Development Intern</h3>
+<p><strong>Marrakech, Morocco · 2026</strong></p>
+<p>Built <strong>Optical CRM</strong>, a full-stack management platform for optical stores. Worked across the stack: Laravel/PHP backend, Blade/Tailwind frontend, MySQL database, Docker environment, and GitHub Actions CI/CD. Implemented authentication and role-based access control, inventory and orders, partial payments, PDF invoices, appointments, notifications, and a KPI dashboard.</p>
+<p><a href="https://github.com/mohamedait-abbou/optical-management-system">View Optical CRM →</a></p>
+</td>
+<td width="40%" valign="top">
+<h3>FST Marrakech — Cadi Ayyad University</h3>
+<p><strong>Computer Engineering · IRISI program</strong></p>
+<p>Coursework and projects across software engineering, databases, networking, operating systems, and AI/ML.</p>
+</td>
+</tr>
+</table>
 
-Built **Optical CRM**, a full-stack management platform for optical stores. Worked across the stack: Laravel/PHP backend, Blade/Tailwind frontend, MySQL database, Docker environment, and GitHub Actions CI/CD. Implemented authentication and role-based access control, inventory and orders, partial payments, PDF invoices, appointments, notifications, and a KPI dashboard. Produced UML models and technical documentation.
-
-[View Optical CRM →](https://github.com/mohamedait-abbou/optical-management-system)
-
-## Education
-
-### FST Marrakech — Cadi Ayyad University
-**Computer Engineering · IRISI program**
-
-Coursework and projects across software engineering, databases, networking, operating systems, and AI/ML.
-
-## GitHub in numbers
+## GitHub snapshot
 
 <div align="center">
 
@@ -155,16 +196,25 @@ Coursework and projects across software engineering, databases, networking, oper
 
 <br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohamedait-abbou&theme=tokyonight" alt="Repositories per language" width="49%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mohamedait-abbou&theme=tokyonight" alt="Most committed languages" width="49%" />
-
-<br/>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohamedait-abbou&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="98%" />
 
 </div>
 
-## Engineering approach
+<details>
+<summary><strong>More GitHub charts</strong> — languages and commit habits</summary>
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohamedait-abbou&theme=tokyonight" alt="Repositories per language" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mohamedait-abbou&theme=tokyonight" alt="Most committed languages" width="49%" />
+
+</div>
+
+</details>
+
+## How I build
 
 ```mermaid
 flowchart LR
@@ -224,14 +274,13 @@ flowchart TD
 
 <br/><br/>
 
-**Open to software engineering, DevOps, and AI/ML internships.**
+**Open to software engineering, DevOps, and AI/ML internships.**  
+Based in Marrakech, Morocco · open to remote and hybrid.
 
 </div>
 
----
-
-<div align="center">
-
-**Build · Learn · Improve**
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg">
+  <img alt="Build, learn, improve" src="assets/footer-dark.svg" width="100%">
+</picture>
